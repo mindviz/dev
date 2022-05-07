@@ -1,3 +1,9 @@
 import streamlit as st
 
-st.write('HIPPO')
+
+st.header('THE BUTTON')
+
+if st.button('HIPPO'):
+    st.write('HIPPO')
+else:
+    st.write('RHINO')
